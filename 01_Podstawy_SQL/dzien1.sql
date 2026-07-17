@@ -145,4 +145,4 @@ SELECT last_update,
 FROM actor;
 
 
-SELECT rental_id, rental_date, IFNULL(return_date, "Not returned yet") FROM rental;
+
