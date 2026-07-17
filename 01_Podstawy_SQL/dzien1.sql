@@ -145,4 +145,3 @@ SELECT last_update,
 FROM actor;
 
 
-
