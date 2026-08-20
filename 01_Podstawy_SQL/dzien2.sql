@@ -228,3 +228,4 @@ SELECT
 FROM
   referential_constraints
 WHERE delete_rule = 'CASCADE'
+
