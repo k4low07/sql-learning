@@ -214,7 +214,8 @@ FROM staff s
          JOIN payment p USING (staff_id)
 WHERE p.customer_id < 4
 GROUP BY p.customer_id, p.staff_id
-WITH ROLLUP;
+WITH ROLLUP
+HAVING payments > 70;
 
--- 05:47:58
+-- 06:03:53
 
